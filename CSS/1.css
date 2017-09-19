@@ -1,0 +1,97 @@
+body {
+	background-image: url("../IMG/miso.jpg");
+	background-repeat: no-repeat;
+	background-size: 1560px 757px;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+a {
+	color: white;
+}
+
+.ul1 {
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    border-style: double;
+}
+
+.li1 {
+    float: left;
+}
+
+.li1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+
+.li1 a:hover{
+	background-color: #111;
+}
+
+.body {
+	background-image: url("../IMG/brown3.png");
+	background-repeat: no-repeat;
+	background-size: 1560px 757px;
+	background-position: center;
+	background-attachment: fixed;
+	}
+
+
+.h1	{
+	text-align: center;
+	font-size: 40px;
+	background-image: url("../IMG/miso.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1560px 850px;
+	height: 76px;
+	margin: 0px;
+}
+
+.left {
+	float: left;
+	width: 350px;
+	color: white;
+	margin: 10px;
+	font-size: 20px;
+}
+
+.right {
+	float: right;
+	top: 135px;
+	right: 5px;
+	width: 300px;
+	color: white;
+	font-size: 20px;
+}
+
+.mid {	
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	margin: 160px auto;
+}
+
+#img1, #img2, #img3, #img4 {
+	width: 100%;
+	height: 100%;	
+	margin: 10px
+}
+
+#vid1 {
+	width:320px;
+	height:220px;
+	frameborder:0; 	
+}
